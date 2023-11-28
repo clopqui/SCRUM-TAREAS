@@ -4,7 +4,6 @@
  */
 package com.CMEPPS.listatareas.model;
 
-import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -43,6 +42,14 @@ public class Todo {
 
     public long getId() {
         return id;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String Name) {
+        this.Name = Name;
     }
 
     public void setId(long id) {
